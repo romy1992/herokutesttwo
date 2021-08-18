@@ -44,20 +44,25 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>commos-test</groupId>-->
+<!--            <artifactId>commonsHerokuTest</artifactId>-->
+<!--            <version>1.0-SNAPSHOT</version>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>commons-test</groupId>
-            <artifactId>com.example.test.commons</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>com.github.romy1992</groupId>
+            <artifactId>commos-test</artifactId>
+            <version>02a6a3632b</version>
         </dependency>
     </dependencies>
 
-    <!--    <distributionManagement>-->
-    <!--        <repository>-->
-    <!--            <id>github</id>-->
-    <!--            <name>GitHub OWNER Apache Maven Packages</name>-->
-    <!--            <url>https://github.com/romy1992/commos-test</url>-->
-    <!--        </repository>-->
-    <!--    </distributionManagement>-->
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
 
     <build>
         <plugins>
