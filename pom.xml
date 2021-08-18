@@ -45,11 +45,19 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.example</groupId>
+            <groupId>commons-test</groupId>
             <artifactId>com.example.test.commons</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+    <!--    <distributionManagement>-->
+    <!--        <repository>-->
+    <!--            <id>github</id>-->
+    <!--            <name>GitHub OWNER Apache Maven Packages</name>-->
+    <!--            <url>https://github.com/romy1992/commos-test</url>-->
+    <!--        </repository>-->
+    <!--    </distributionManagement>-->
 
     <build>
         <plugins>
